@@ -1,0 +1,20 @@
+
+/* aca editamos el celular */
+.Celular__Estyle{
+    max-width: 460px;
+    background-color: rgba(0, 0, 0, 0.093);
+    margin: 0 auto; 
+    height: 100vh;
+    border-radius: 20px;
+    /* color: aliceblue; */
+}
+
+
+
+.icono{
+    border-image-slice:30px ;
+}
+
+
+
+
