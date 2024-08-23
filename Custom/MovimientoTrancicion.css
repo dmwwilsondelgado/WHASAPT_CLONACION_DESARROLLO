@@ -1,0 +1,39 @@
+/* Movimiento de la barra de subrayado según la pestaña activa */ */
+input#chat:checked ~ .botones .Subraya {
+  transform: translateX(0%);
+}
+input#Estados:checked ~ .botones .Subraya {
+  transform: translateX(100%);
+}
+input#Llamadas:checked ~ .botones .Subraya {
+  transform: translateX(200%);
+}
+
+input#chat:checked ~ .botones .Subraya {
+  transform: translateX(0%);
+}
+input#Estados:checked ~ .botones .Subraya {
+  transform: translateX(100%);
+}
+input#Llamadas:checked ~ .botones .Subraya {
+  transform: translateX(200%);
+}
+
+
+
+/* Mostrar la sección activa */
+input#chat:checked ~ .container__third .chats,
+input#Estados:checked ~ .container__third .status,
+input#Llamadas:checked ~ .container__third .calls {
+  left: 0;
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Ocultar otras secciones */
+input#chat:not(:checked) ~ .container__third .chats,
+input#Estados:not(:checked) ~ .container__third .status,
+input#Llamadas:not(:checked) ~ .container__third .calls {
+  opacity: 0;
+  transform: translateX(100%);
+}
