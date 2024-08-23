@@ -1,0 +1,43 @@
+
+
+/* contenedor 2 Estados Llamadas Chats*/
+ 
+/* contenedor   wasapt */
+.container {
+    position: relative;
+    width: 315px;
+    height: 620px;
+    background-color: #f2eaff;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    border-radius: 30px;
+  }
+
+.container__secundary input {
+    visibility: hidden;
+    display: none;
+  } 
+  
+  
+  
+  /* caja de chaths de wasapth edicion  */
+  .contenedor__secundary {
+    position: relative;
+    width: calc(340px * 3);
+    display: flex;
+    transition: 0.2s;
+    overflow: hidden;
+  }
+  
+  .contentenedor__secundary .caja {
+    position: relative;
+    width: 340px;
+  }
+  
+  
+  /* chats  */
+  .container__third .data {
+    position: relative;
+    width: 100%;
+    height: 510px;
+  }

@@ -1,0 +1,32 @@
+.botones label {
+    width: 33.33%;
+    color: #fff;
+    opacity: 0.75;
+    text-align: center;
+    padding: 5px 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.9em;
+    cursor: pointer;
+}
+
+
+.botones {
+    position: relative;
+    display: flex;
+    background-color: #17413a;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+} 
+
+
+
+/* linea de apoyo  */
+.Subraya {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 33.33%;
+    height: 3px;
+    background-color: #fff;
+    transition: 0.5s;
+}  

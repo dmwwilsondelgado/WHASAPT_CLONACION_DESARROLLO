@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WhatsApp</title>
+  <link rel="stylesheet" href="StylesJhon.css">
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <a href="#" class="logo">WhatsApp</a>
+      <div class="action">
+        <a href="#">
+          <ion-icon name="camera-outline"></ion-icon>
+        </a>
+        <a href="#">
+          <ion-icon name="search-outline"></ion-icon>
+        </a>
+        <a href="#">
+          <ion-icon name="ellipsis-vertical-outline"></ion-icon>
+        </a>
+      </div>
+    </header>
+    <div class="tabs">
+      <input type="radio" name="group" id="chats" checked>
+      <input type="radio" name="group" id="status">
+      <input type="radio" name="group" id="calls">
+
+      <div class="buttons">
+        <label for="chats">Chats</label>
+        <label for="status">Status</label>
+        <label for="calls">Calls</label>
+        <div class="underline"></div>
+      </div>
+
+        <div class="quickBtn">
+          <div class="btn message">
+            <ion-icon name="chatbubble"></ion-icon>
+          </div>
+          <div class="btn camers">
+            <div class="pencil">
+              <ion-icon name="pencil-sharp"></ion-icon>
+            </div>
+            <ion-icon name="camera"></ion-icon>
+          </div>
+          <div class="btn call">
+            <ion-icon name="call"></ion-icon>
+          </div>
+        </div>
+
+      <div class="content">
+        <!-- Sección chats -->
+        <div class="box chats">
+          <div class="data">
+            <div class="chatlis">
+              <div class="block unread">
+                <div class="imgbx">
+                  <img src="img/img1.jpg" alt="img">
+                </div>
+                <div class="details">
+                  <div class="listHead">
+                    <h4>Alex Smith</h4>
+                    <p class="time">10:56</p>
+                  </div>
+                  <div class="message_p">
+                    <p>No tenemos ese servicio en la empresa</p>
+                    <b>1</b>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Chast de relleno -->
+
+              <div class="block unread">
+                <div class="imgbx">
+                  <img src="img/img2.jpg" alt="img">
+                </div>
+                <div class="details">
+                  <div class="listHead">
+                    <h4>El moreno</h4>
+                    <p class="time">Yesterday</p>
+                  </div>
+                  <div class="message_p">
+                    <p>No podemos ir a su casa</p>
+                    <b>5</b>
+                  </div>
+                </div>
+              </div>
+
+              <div class="block">
+                <div class="imgbx">
+                  <img src="img/img3.jpg" alt="img">
+                </div>
+                <div class="details">
+                  <div class="listHead">
+                    <h4>Intructora Alejandra</h4>
+                    <p class="time">8:56</p>
+                  </div>
+                  <div class="message_p">
+                    <p>El diseño no quedo confirmado, tenemos que reunirnos nuevamente</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="block">
+                <div class="imgbx">
+                  <img src="img/img4.jpg" alt="img">
+                </div>
+                <div class="details">
+                  <div class="listHead">
+                    <h4>Psicologa SENA</h4>
+                    <p class="time">7:56</p>
+                  </div>
+                  <div class="message_p">
+                    <p>El aprendiz estan en acción de mejora</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="block">
+                <div class="imgbx">
+                  <img src="img/img5.jpg" alt="img">
+                </div>
+                <div class="details">
+                  <div class="listHead">
+                    <h4>Empresa de diseño</h4>
+                    <p class="time">18:56</p>
+                  </div>
+                  <div class="message_p">
+                    <p>Los PDS que enviarón requieren de unos ajsutes</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="block unread">
+                <div class="imgbx">
+                  <img src="img/img6.jpg" alt="img">
+                </div>
+                <div class="details">
+                  <div class="listHead">
+                    <h4>Aprendiz ADSO 2468003</h4>
+                    <p class="time">5:56</p>
+                  </div>
+                  <div class="message_p">
+                    <p>No puedo ir a formación</p>
+                    <b>1</b>
+                  </div>
+                </div>
+              </div>
+
+              <div class="block unread">
+                <div class="imgbx">
+                  <img src="img/img7.jpg" alt="img">
+                </div>
+                <div class="details">
+                  <div class="listHead">
+                    <h4>Instructora Virtual ADSO</h4>
+                    <p class="time">13:56</p>
+                  </div>
+                  <div class="message_p">
+                    <p>NO enviarón las evidencias del taller</p>
+                    <b>1</b>
+                  </div>
+                </div>
+              </div>
+
+              <div class="block unread">
+                <div class="imgbx">
+                  <img src="img/img8.jpg" alt="img">
+                </div>
+                <div class="details">
+                  <div class="listHead">
+                    <h4>Aprendiz ADSO 2663995</h4>
+                    <p class="time">6:56</p>
+                  </div>
+                  <div class="message_p">
+                    <p>¿Hoy tenemos formación?</p>
+                    <b>1</b>
+                  </div>
+                </div>
+              </div>
+
+              <div class="block unread">
+                <div class="imgbx">
+                  <img src="img/img9.jpg" alt="img">
+                </div>
+                <div class="details">
+                  <div class="listHead">
+                    <h4>Supervisor Técnico</h4>
+                    <p class="time">4:56</p>
+                  </div>
+                  <div class="message_p">
+                    <p>Hoy tenemos que trabajar fuerte, los muchachos no avanzan nada</p>
+                    <b>1</b>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="box status">
+          <div class="data">
+            <div class="chatlis">
+              <div class="block">
+                <div class="imgbx">
+                  <img src="img/img3.jpg" alt="img">
+                </div>
+                <div class="plus">+</div>
+                <div class="details">
+                  <div class="listHead">
+                    <h4>My Status</h4>
+                  </div>
+                  <div class="message_p">
+                    <p>Tap to add status update</p>
+                  </div>
+                </div>
+              </div>
+              <label>Recent Updates</label>
+
+              <div class="block unseen">
+                <div class="imgbx">
+                  <img src="img/img3.jpg" alt="img">
+                </div>
+                <div class="details">
+                  <div class="listHead">
+                    <h4>Intructora Alejandra</h4>
+                  </div>
+                  <div class="message_p">
+                    <p>Just Now</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="block unseen">
+                <div class="imgbx">
+                  <img src="img/img4.jpg" alt="img">
+                </div>
+                <div class="details">
+                  <div class="listHead">
+                    <h4>Psicologa SENA</h4>
+                  </div>
+                  <div class="message_p">
+                    <p>45 Minutes ago</p>
+                  </div>
+                </div>
+              </div>
+
+              <label>Viewed Updates</label>
+
+              <div class="block seen">
+                <div class="imgbx">
+                  <img src="img/img5.jpg" alt="img">
+                </div>
+                <div class="details">
+                  <div class="listHead">
+                    <h4>Empresa diseño</h4>
+                  </div>
+                  <div class="message_p">
+                    <p>Yesterday, 17:25</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="block seen">
+                <div class="imgbx">
+                  <img src="img/img7.jpg" alt="img">
+                </div>
+                <div class="details">
+                  <div class="listHead">
+                    <h4>Instructora Virtual ADSO</h4>
+                  </div>
+                  <div class="message_p">
+                    <p>Yesterday, 21:25</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="box calls">
+          <div class="data">
+
+            <div class="chatlis">
+              <div class="block">
+                <div class="imgbx green">
+                  <ion-icon name="link-outline"></ion-icon>
+                </div>
+                <div class="details">
+                  <div class="listHead">
+                    <h4>Create call link</h4>
+                    <p class="time">10:56</p>
+                  </div>
+                  <div class="message_p">
+                    <p>Share a link for your WhatsApp call</p>
+                  </div>
+                </div>
+              </div>
+              <label>Recent</label>
+              <div class="block">
+                <div class="imgbx">
+                  <img src="img/img4.jpg" alt="img">
+                </div>
+                <div class="details">
+                  <div class="listHead">
+                    <h4>Psicologa SENA</h4>
+                  </div>
+                  <div class="message_p incoming">
+                    <p>
+                      <ion-icon name="arrow-down"></ion-icon>
+                      08/15/2024, 8:00
+                    </p>
+                  </div>
+                </div>
+                <ion-icon name="call" class="call"></ion-icon>
+              </div>
+              <div class="block">
+                <div class="imgbx">
+                  <img src="img/img3.jpg" alt="img">
+                </div>
+                <div class="details">
+                  <div class="listHead">
+                    <h4>Intructora Alejandra</h4>
+                  </div>
+                  <div class="message_p outgoing">
+                    <p>
+                      <ion-icon name="arrow-up"></ion-icon>
+                      08/20/2024, 11:45
+                    </p>
+                  </div>
+                </div>
+                <ion-icon name="call" class="call"></ion-icon>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>

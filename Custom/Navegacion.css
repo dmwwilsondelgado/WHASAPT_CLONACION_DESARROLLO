@@ -1,0 +1,35 @@
+
+/* navegacion PRINCIPAL */
+header {
+    position: relative;
+    background-color: #060607d2;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+   /* IMAGENES DE LOGO ICONOS  */
+  header .logo {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1em;
+  }
+  
+  /* pocicion iconos */
+  header .action {
+    position: relative;
+    display: flex;
+    gap: 15px;
+  }
+  /* Estylos de iconos */
+  
+  header .action a {
+    display: flex;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+  }
+  
+  
